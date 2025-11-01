@@ -9,6 +9,7 @@ import Block from "../../components/Block/Block";
 import {requestTokenPost} from "../../service";
 import GoogleMapReact from "google-map-react";
 import { useTranslation } from "react-i18next";
+import {config} from "../../config";
 
 function VMUserAdd() {
   const { roletype } = useParams();
@@ -30,6 +31,7 @@ function VMUserAdd() {
   ]);
   const [map, setMap] = useState(null);
   let [areas, setAreas] = useState([triangleCoords]);
+  const googleMapApiKey = config.googleMapApiKey;
 
   const addArea = () => {
     setAreas([...areas, triangleCoords]);
@@ -344,9 +346,7 @@ function VMUserAdd() {
                                 <div style={{height: "400px", width: "100%"}}>
                                   <GoogleMapReact
                                     key={areas.length}
-                                    bootstrapURLKeys={{
-                                      key: "AIzaSyBJPLIWETfI_wOxTn-CUHWrk4B5diY2Fbw",
-                                    }}
+                                    bootstrapURLKeys={googleMapApiKey ? {key: googleMapApiKey} : {}}
                                     defaultCenter={position}
                                     defaultZoom={12}
                                     onGoogleApiLoaded={({map, maps}) => {

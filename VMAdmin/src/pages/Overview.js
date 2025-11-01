@@ -5,6 +5,7 @@ import Layout from "../layout/default";
 import GoogleMapReact from "google-map-react";
 
 import {requestTokenPost} from "../service";
+import {config} from "../config";
 
 import { useTranslation } from "react-i18next";
 import { useAuth } from "../provider/AuthProvider";
@@ -27,6 +28,7 @@ function Overview() {
   const [isMarkerOn, setMarkerOn] = useState(false);
   const { t } = useTranslation("global");
   const { role } = useAuth();
+  const googleMapApiKey = config.googleMapApiKey;
 
   const isPointInArea = (point, region) => {
     const x = point.lng;
@@ -222,9 +224,7 @@ function Overview() {
         <div style={{height: "100vh", width: "100%"}}>
           {isRender && (
             <GoogleMapReact
-              bootstrapURLKeys={{
-                key: "AIzaSyBJPLIWETfI_wOxTn-CUHWrk4B5diY2Fbw",
-              }}
+              bootstrapURLKeys={googleMapApiKey ? {key: googleMapApiKey} : {}}
               defaultCenter={position}
               defaultZoom={12}
               onGoogleApiLoaded={({map, maps}) => handleApiLoaded(map, maps)}

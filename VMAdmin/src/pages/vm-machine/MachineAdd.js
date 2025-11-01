@@ -111,6 +111,7 @@ function VMMachineAdd() {
     lng: 13.406185921060313,
   });
   const markerRef = useRef(null);
+  const googleMapApiKey = config.googleMapApiKey;
 
   const handleApiLoaded = (map, maps) => {
     const newMarker = new maps.Marker({
@@ -744,9 +745,7 @@ function VMMachineAdd() {
             <Row className="g-gs">
                 <div style={{height: "400px", width: "100%"}}>
                   <GoogleMapReact
-                    bootstrapURLKeys={{
-                      key: "AIzaSyBJPLIWETfI_wOxTn-CUHWrk4B5diY2Fbw",
-                    }}
+                    bootstrapURLKeys={googleMapApiKey ? {key: googleMapApiKey} : {}}
                     defaultCenter={position}
                     defaultZoom={12}
                     onGoogleApiLoaded={({map, maps}) =>

@@ -85,8 +85,9 @@ An end-to-end vending machine management stack that combines a Node.js/Express A
    Create `.env.local` (or `.env`) and set:
    ```dotenv
    REACT_APP_SERVER_URL=https://localhost:8443
+   REACT_APP_GOOGLE_MAP_API_KEY=your-browser-google-maps-key
    ```
-   Use your deployed API URL in production.
+   Use your deployed API URL (and production Google Maps key) in production.
 3. **Run locally**
    ```bash
    npm start
@@ -107,11 +108,15 @@ The admin app authenticates via the `/auth` endpoints, consumes analytics data, 
    npm install
    ```
 2. **Configure runtime URLs & keys**
-   - Set `REACT_APP_API_SERVER` in `.env.local`:
-     ```dotenv
-     REACT_APP_API_SERVER=https://localhost:8443/
-     ```
-   - Update `src/app/configs/appConfig.js` with production PayPal credentials, Google client IDs, and map keys, or extend it to read from environment variables before deployment.
+   Create `.env.local` (or `.env`) and set:
+   ```dotenv
+   REACT_APP_API_SERVER=https://localhost:8443/
+   REACT_APP_PAYPAL_CLIENT_ID=your-paypal-client-id
+   REACT_APP_PAYPAL_MERCHANT_ID=your-paypal-merchant-id
+   REACT_APP_PAYPAL_SECRET=your-paypal-secret
+   REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id
+   REACT_APP_GOOGLE_MAP_API_KEY=your-browser-google-maps-key
+   ```
 3. **Run locally**
    ```bash
    npm start

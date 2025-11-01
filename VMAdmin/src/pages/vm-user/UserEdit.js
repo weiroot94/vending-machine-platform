@@ -9,6 +9,7 @@ import Layout from "../../layout/default";
 import Block from "../../components/Block/Block";
 import {requestTokenPost} from "../../service";
 import { useTranslation } from "react-i18next";
+import {config} from "../../config";
 
 function VMUserEdit() {
   const {id} = useParams();
@@ -34,6 +35,7 @@ function VMUserEdit() {
   ]);
 
   let [areas, setAreas] = useState([triangleCoords]);
+  const googleMapApiKey = config.googleMapApiKey;
 
   const addArea = () => {
     setAreas([...areas, triangleCoords]);
@@ -397,9 +399,7 @@ function VMUserEdit() {
                                 <div style={{height: "400px", width: "100%"}}>
                                   <GoogleMapReact
                                     key={areas.length}
-                                    bootstrapURLKeys={{
-                                      key: "AIzaSyBJPLIWETfI_wOxTn-CUHWrk4B5diY2Fbw",
-                                    }}
+                                    bootstrapURLKeys={googleMapApiKey ? {key: googleMapApiKey} : {}}
                                     defaultCenter={position}
                                     defaultZoom={12}
                                     onGoogleApiLoaded={({map, maps}) =>

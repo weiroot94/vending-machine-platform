@@ -19,6 +19,7 @@ function VMMachineEdit() {
   const { id } = useParams();
   const role = JSON.parse(window.localStorage.getItem("vending_user")).role;
   const { t } = useTranslation("global");
+  const googleMapApiKey = config.googleMapApiKey;
   const infoList = [
     {
       name: `${t("Machine.Type_Cloud")}`,
@@ -943,9 +944,7 @@ function VMMachineEdit() {
             <Row className="g-gs">
               <div style={{ height: "400px", width: "100%" }}>
                 <GoogleMapReact
-                  bootstrapURLKeys={{
-                    key: "AIzaSyBJPLIWETfI_wOxTn-CUHWrk4B5diY2Fbw",
-                  }}
+                  bootstrapURLKeys={googleMapApiKey ? {key: googleMapApiKey} : {}}
                   defaultCenter={position}
                   defaultZoom={12}
                   yesIWantToUseGoogleMapApiInternals
