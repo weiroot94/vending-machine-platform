@@ -1,0 +1,544 @@
+{
+  "Header" : {
+      "Language" : "Language",
+      "English": "English",
+      "German": "German",
+      "LogOut": "Log Out"
+  },
+  "Footer" : {
+      "Copyright" : "Vending Machine Center"
+  },
+
+  "SideMenu" : {
+      "Title": "VM Admin",
+      "Dashboard": "Dashboard",
+      "OverView": "OverView",
+      "Users": "Users",
+      "Subscriptions": "Subscriptions",
+      "Logs": "Logs",
+
+      "Vending_Machine": "VENDING MACHINE",
+      "Advertisement": "Advertisement",
+      "Information": "Information",
+      "Products" : "Products",
+      "Vending": "Vending Machine",
+      "Languages": "Languages",
+      "Update": "Update",
+
+      "Statistics": "STATISTICS",
+      "Sales": "Sales",
+      "Anaylytics": "Anaylytics"
+  },
+
+  "homecommerce": {
+      "Machines": "Registered Vending Machines",
+      "Total": "Total Machines:",
+      "Online": "Online Machines:",
+      "Offline": "Offline Machines:",
+      
+      "Visitors": "Total Visitors in last 7 days",
+      "New_Visitor": "visitors",
+      "During_Week": "this week",
+
+      "Registers": "Total Registers in one year",
+      "New_Register": "new registers",
+      "During_Year": "this year.",
+
+      "Selling": "Total Selling analytics in one year",
+
+      "Earning": "Total Earnings",
+      "Total_Income": "Total Income",
+      "Cash_Income": "Cash Income",
+      "QR_Income": "QR Income",
+      "Report": "View Report",
+
+      "Deposit": "Deposit",
+      "Current_Deposit": "Current Total depositing money from users",
+
+      "Product": "Products",
+      "Current_Product": "Current products count from all vending machines",
+
+      "Current_Location": "Current registered locations",
+
+      "Current_AppVersion": "Current running App version",
+
+      "Vending_Machine": "Albert of Vending Machines",
+      "Col_Machine": "MACHINE",
+      "Col_Agent": "Customer",
+      "Col_Status": "STATUS",
+
+      "Sale_Analytic": "Sales Analytics",
+      "Total_Sale": "Totals Sales",
+      "Total_Order": "Total Orders"
+  },
+
+  "Overview" : {
+    "Agent" : "Customer:",
+    "ADS": "ADS Manager:",
+    "Machine": "Machines:",
+    "Total": "Total Incomings:",
+
+    "Machine_Id": "Machine ID :",
+    "Cash": "Cash :"
+  },
+
+  "Users": {
+      "Col_Name": "FULL NAME",
+      "Col_Email": "Email",
+      "Col_Balance": "Balance",
+      "Col_Role": "ROLE",
+      "Col_Subscribe": "SUBSCRIBED",
+      "Col_Joined": "JOINED DATE",
+      "Col_Updated": "UPDATED DATE",
+      "Col_Action": "ACTION",
+
+      "Users": "Users",
+      "Add": "Add User",
+      "Edit": "Edit User",
+      "Save": "Save User",
+      "Del": "Delete User",
+      "Administrator": "Administrators",
+      "Customer": "Customers",
+
+      "Name_Lbl": "User Full Name",
+      "Name": "Full Name",
+      "Email_Lbl": "Email",
+      "Email": "Email Address",
+      "Password_Lbl": "Password",
+      "Password": "User Password",
+      
+      "User_Role": "User Role",
+      "Admin_Role": "Administrator",
+      "Agent_Role": "Customer",
+      "ADS_Role": "ADS Manager",
+
+      "Subscribed": "Subscribed(*)",
+
+      "Advertise_Area": "Advertisement area",
+      "Add_Area": "Add Area",
+      "Del_Title": "Delete user",
+      "Del_Descrip": "Do you really want to delete this user?",
+
+      "Admin_Type": "Admin",
+      "Agent_Type": "Customer",
+      "ADS_Type": "ADS"
+  },
+
+  "Subscription": {
+      "Col_Subject": "SUBJECT",
+      "Col_Create": "CREATED DATE",
+      "Col_Updated": "UPDATED DATE",
+      "Col_Delivered": "DELIVERED",
+      "Col_Action": "ACTION",
+
+      "Title": "Subscriptions",
+      "Subject": "Subject",
+
+      "Action": "action",
+      "Add":    "Add Subscription",
+      "Delete": "Delete Subscription",
+      "Edit":   "Edit Subscription",
+      "NotYet": "Not yet",
+
+      "Save": "Save Changes"
+  },
+
+  "Logs" : {
+    "Title": "Logs",
+    "All": "All Logs",
+    "Admin": "Admin",
+    "Agent": "Customer",
+    "ADS": "ADS Manager",
+    "Customer": "Customers",
+    "Machine": "Machines",
+    "Search": "Search logs"
+  },
+
+  "Advertisement": {
+    "Col_Title": "TITLE",
+    "Col_Type": "TYPE",
+    "Col_Poster": "POSTER",
+    "Col_Created": "CREATED DATE",
+    "Col_Updated": "UPDATED DATE",
+    "Col_Action": "ACTION",
+
+    "Title": "Advertisement",
+    "Add": "Add Advertisement",
+    "Edot": "Edit Advertisement",
+    "UpdateData": "Update Data",
+    "Delete": "Delete Advertisement",
+    "Save": "Save Advertisement",
+    "Del_Descrip": "Do you reall want to delete this advertisement?",
+    "Del_Finished": "Advertisement deleted",
+    "Blocker_Detect": "Ad blocker detected",
+    "Blocker_Desc": "Currently we noticed that you installed Ad blocker in browser, please disable it for proper user experience",
+
+    "Type_Title": "Title",
+    "Type_Label":"Type",
+    "Type_Mp4": "MP4",
+    "Type_PPT": "PPT",
+
+    "File": "Advertisement File",
+    "Download_PPT": "Download PPT file"
+  },
+
+  "Information": {
+    "Title": "Information",
+
+    "Cloud": "Cloud",
+    "Weight": "Weight",
+    "Battery": "Battery",
+    "Hand": "Hand",
+    "Capacity": "Capacity",
+    "Length": "Length",
+
+    "Remove": "Remove Information",
+    "Remove_Descrip": "Do you really remove this information?"
+  },
+
+  "Product": {
+    "Title": "Products",
+    "Col_Name": "Name",
+    "Col_Category": "CATEGORY",
+    "Col_Feature": "FEATURED",
+    "Col_Price": "PRICE",
+    "Col_Currency": "CURRENCY",
+    "Col_Created": "CREATED DATE",
+    "Col_Updated": "UPDATED DATE",
+    "Col_Action": "ACTION",
+
+    "Name_Lbl": "Name(*)",
+    "Name": "Product Name",
+    "German_Name_Lbl": "German Name(*)",
+    "German_Name": "Product Name(German)",
+    "Price_Lbl": "Price(*)",
+    "Price": "Price",
+    "Currency_Lbl": "Currency(*)",
+    "Currency": "Currency",
+    "Description_Lbl": "Description(*)",
+    "Description": "Description",
+    "German_Description_Lbl": "German Description(*)",
+    "German_Description": "Description(German)",
+
+    "Category_Lbl":"Category(*)",
+    "Category_EC":"E-cigarette",
+    "Category_Snack":"Snack",
+    "Category_Drink":"Drink",
+
+    "Theme_Lbl": "Theme(*)",
+    "Theme_Green": "Green",
+    "Theme_Blue": "Blue",
+    "Theme_Pink": "Pink",
+    "Theme_Black": "Black",
+
+    "Feature_Lbl": "Featured(*)",
+
+    "Addition_Info": "Additional Information",
+    "German_Addition_Info": "German Additional Information",
+
+    "Image_Lbl": "Product information Images",
+    "Main_Image": "Main Image(*)",
+    "Additional_Image": "Additional Image",
+    "Preview": "Preview",
+    "Additional": "Additional",
+
+    
+    "Add": "Add Product",
+    "Edit": "Edit Product",
+    "Save": "Save Product",
+    "Delete": "Delete Product",
+    "Delete_Descrip": "Do you really want to delete this product?",
+
+    "ADD_EXTRA_PRODUCT_IMAGES": "Add extra images",
+    "ERRMSG_SET_PRIMARY_IMAGE_FIRST": "Please set primary image first"
+  },
+
+  "Machine": {
+    "Title": "Vending Machines",
+
+    "Col_Serial": "SERIAL NO",
+    "Col_Agent": "Customer",
+    "Col_Cash": "CASH AMOUNT",
+    "Col_Status": "STATUS",
+    "Col_Created":"CREATED DATE",
+    "Col_Expiration":"EXPIRATION DATE",
+    "Col_Action":"ACTION",
+
+    "Add": "Add Vending Machine",
+    "Edit": "Edit Vending Machinge",
+    "Delete": "Delete vending machine",
+    "Update": "Update Machine",
+    "Delete_Descrip": "Do you really want to delete this machine?",
+
+    "Step": "Step",
+    "SerialNumber": "Serial Number",
+    "Advertisement": "Advertisement",
+    "Information": "Information",
+    "Vending_ADS": "Vending ADS",
+    "Products": "Products",
+    "Cash": "Cash",
+    "Location": "Location",
+    "Advertisement_German": "Advertisement for Germany Vending (used in app)",
+
+    "BoxNumber": "Box Number",
+    "Stock": "Stock",
+
+    "Type_Cloud" : "Cloud",
+    "Type_Liquid" : "Liquid",
+    "Type_Ruler" : "Ruler",
+    "Type_Hand" : "Hand",
+    "Type_Balancer" : "Balancer",
+    "Type_Battery" : "Battery",
+
+    "Exceed_Limit_Image" : "Exceed the limit count of images",
+
+    "Online": "online",
+    "Offline": "offline",
+    "Locked": "locked",
+    "UnLocked": "unlocked"
+
+  },
+
+  "Language" : {
+    "Title" : "Language",
+
+    "Col_Language": "Language",
+    "Col_Created": "Created Date",
+    "Col_Updated": "UPDATED DATE",
+    "Col_Action":"ACTION",
+
+    "Add": "Add Language",
+    "Remove": "Remove Language",
+    "Remove_Descrip": "Do you really want to remove this language?",
+    "Save": "Save Language",
+    "Edit":"Edit Language",
+    "Update": "Update Language",
+
+    "App": "Vending App",
+    "Admin_Site": "Admin Site",
+    "Custom_Site": "Customer Site",
+
+    "Name_Field": "Language Name",
+    "Where_Use": "Where to use this language",
+    "Machine_App": "Vending Machine App",
+    "Current_File": "Current File",
+    "Icon": "Language Icon File"
+  },
+
+  "Sale" : {
+    "Title" : "Sales",
+    "Col_ORDER": "ORDER BY",
+    "Col_Vending": "VENDING MACHINE",
+    "Col_Product": "PRODUCT",
+    "Col_Amount": "AMOUNT",
+    "Col_Payment": "PAYMENT",
+    "Col_Date": "DATE",
+    "Col_Status": "STATUS",
+    "Col_Action": "ACTION",
+
+    "Detail_Title": "Order Details",
+    "Detail_Order": "Order No:",
+    "Detail_Machine": "Vending Machine:",
+    "Detail_Payment": "Payment:",
+    "Detail_Status": "Status:",
+    "Detail_Date": "Date:",
+    "Detail_Types": "Types",
+    "Types_Title": "Type",
+    "Types_Price": "Price",
+    "Types_Count": "Count",
+    "Types_Total": "Sub Total",
+
+    "List": "Sales List",
+    "Order": "Order",
+
+    "Success": "Success",
+    "Pending": "Pending",
+
+    "QR": "QR",
+    "Cash": "CASH"
+  },
+
+  "Date": {
+    "Mon":"Mon",
+    "Thu":"Thu",
+    "Wed":"Wed",
+    "Tue":"Tue",
+    "Fri":"Fri",
+    "Sta":"Sta",
+    "Sun":"Sun",
+
+    "Year":"Year",
+    "Month":"Month",
+    "week": "Week",
+    "Sel_Year": "Select Year"
+  },
+
+  "Analytics": {
+    "Title": "Analytics",
+
+    "Total": "Total Selling",
+    "Type": "Sellings by Products",
+    "Machines": "Sellings by Machines",
+    "Month": "month",
+    "Order": "orders",
+    "Stock": "stock",
+    "Amount": "amount",
+    "Product": "Product",
+    "Count": "Selling Counts",
+    "Vending": "Vending Machine"
+
+  },
+
+  "History" : {
+    "Title": "Vending Machine Application Git Commit history",
+    "Revert": "Revert History",
+    "Revert_Descrip": "Reverts update history from Git repository",
+
+    "Col_Version": "Version",
+    "Col_SHA": "SHA",
+    "Col_Comment": "Comment",
+    "Col_Branchname": "Branch Name",
+    "Col_Updated": "Updated",
+    "Col_Action": "Action",
+    "Col_Revert": "Revert",
+    "Update": "updates"
+  },
+
+  "Update": {
+    "Title" : "Updates",
+    "Machine_Update": "Add Vending Machine Update",
+    "Edit": "Edit Updates",
+    "Save_Update": "Save Update",
+    "Name": "Full Name",
+    "Link": "Git commit link",
+    "Enable": "Enable",
+    "Disable": "Disable",
+    "Save": "Save Changes",
+    "Add": "Add Update",
+    "Comment": "Commnet",
+    "Git_Link": "Git Commit link",
+    "Status": "Status"
+  },
+
+  "Options": {
+      "Title": "Option",
+      "Low_T_High": "Low to high",
+      "High_T_Low": "High to low",
+      "Days": "Days",
+
+      "Frist": "First",
+      "Prev": "Prev",
+      "Next": "Next",
+      "Last": "Last",
+      "Select": "Select",
+
+      "To": "to",
+
+      "Yes": "Yes",
+      "No": "No",
+      "Cancel": "Cancel",
+
+      "Add": "Add",
+      "Save": "Save",
+      "Close": "Close",
+
+      "Go_Back": "Go Back",
+
+      "Home": "Home",
+      "Action": "Action",
+      "All": "All",
+      "Total": "Total:",
+      "Not_Available": "Not available",
+
+      "Activate": "Activate"
+  },
+
+  "Table": {
+      "PerPage": "Per page",
+      "Search": "Search",
+      "No_Data": "There are no records found.",
+      "Showing": "Showing",
+      "To": "to",
+      "Of": "of",
+      "Entries": "entries",
+      "Total_Received": "Total Received",
+      "Bar_Data": "Bar Data"
+  },
+
+  "Messages": {
+      "Check_All_MSG": "Please check all fields",
+      "Fail_Get_Overview" : "Failed to get overview information",
+
+      "Fail_Get_User_MSG": "Failed to get user detail",
+      "Fail_Add_User_MSG": "Failed to add new user",
+      "Fail_Update_User_MSG": "Failed to update user",
+      "Fail_Del_User_MSG": "Failed to delete user",
+
+      "Fail_List_User_MSG": "Failed to list users",
+
+      "Fail_List_Subscript_MSG": "Failed to get list of subscriptions",
+      "Send_Bulk_MSG": "Sending bulk subscription mails to users, please wait...",
+      "Fail_Send_MSG": "Failed to send subscription mails",
+      "Delete_MSG": "Do you really want to delete?",
+
+      "Fail_Get_Sub_MSG": "Failed to get subscription detail",
+      "Fail_New_Sub_MSG": "Failed to add new subscription",
+      "Fail_Update_Sub_MSG": "Failed to update subscription",
+      "Fail_Del_Sub_MSG": "Failed to delete subscription",
+
+      "Fail_Get_Detail_Adver_MSG": "Failed to get Advertisement details",
+      "Fail_Get_Adver_MSG": "Failed to get list of Advertisements",
+      "Fail_Update_Adver_MSG": "Failed to update Advertisement",
+      "Fail_Del_Adver_MSG": "Failed to delete Advertisement",
+      "Disable_Blocker_Extension_MSG": "Please disable Ad blocker extension first",
+      "Fail_Add_Adver_MSG": "Failed to add new Advertisement",
+      "Success_Add_Adver_MSG": "New Advertisement is added!",
+      "Success_Update_Adver_MSG": "Advertisement updated",
+
+      "Fail_list_Info_MSG": "Failed to get list of information",
+      "Fail_Del_Info_MSG": "Failed to delete information",
+      "Success_Del_Info_MSG": "Information deleted",
+
+      "Fail_List_Machine_MSG": "Failed to get list of machines",
+      "Fail_Update_Machine_MSG": "Failed to upate machine",
+      "Fail_Del_Machine_MSG": "Failed to delete machine",
+      "Block_Detect_MSG": "Ad blocker detected",
+      "Block_Notice_MSG": "Currently we noticed that you installed Ad blocker in browser, please disable it for proper user experience",
+      "Disable_Block_MSG": "Please disable Ad blocker extension first",
+
+      "Already_Selected_MSG": "Already selected number, please select another",
+      "Enter_License_MSG": "Please enter license code",
+      "Fail_list_Product_MSG": "Failed to get list of products",
+      "Fail_Machine_Detail_MSG": "Failed to get machine detail",
+
+      "License_Invalid_MSG": "License code should eb 20 characters",
+      "Type_Serial_Number_MSG": "Please enter serial number",
+      "Select_Machine_MSG": "Please select advertisement for the machine",
+      "Select_Info_MSG": "Please select information",
+      "Input_Info_MSG": "Please input values of each information",
+      "Select_Prodcuct_MSG": "Please select products",
+      "Set_Neccessary_Info_MSG": "Please set all necessary values per each product",
+      "Create_Config_MSG": "Please create cash configuration for the machine",
+      "Commnect_Cash_MSG": "Please enter comments per each cash",
+
+      "Machine_Active_MSG": "Machine is actiaved!",
+      "License_Code_MSG": "License code is invalid",
+      "License_Active_MSG": "Enter license code to activate machine",
+      "Fail_List_Language_MSG": "Failed to get list of languages",
+
+      "Success_New_Language_MSG": "New Language added",
+      "Fail_New_Language_MSG": "Failed to add new language",
+      "Fail_Get_Language_MSG": "Failed to get language detail",
+
+      "Fail_List_Sales_MSG": "Failed to get sales list",
+      "Fail_Analytics_MSG": "Failed to fetch analytics information",
+      "Fail_Get_History_MSG":"Failed to get commit history",
+      "Fail_Update_History_MSG": "Failed to get update detail",
+      "Success_Update_MSG": "Updated successfully",
+      "Failed_update_MSG": "Failed to update",
+      "Success_Add_Update_MSG": "New Update added",
+      "Fail_New_Update_MSG": "Failed to add new update",
+
+      "Fail_Detail_Product_MSG": "Failed to get product detail"
+  }
+}

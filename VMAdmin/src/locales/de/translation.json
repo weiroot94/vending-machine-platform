@@ -1,0 +1,545 @@
+{
+    "Header" : {
+        "Language" : "Sprache",
+        "English": "Englisch",
+        "German": "Deutsch",
+        "LogOut": "Ausloggen"
+    },
+    "Footer" : {
+        "Copyright" : "Automatenzentrum"
+    },
+  
+    "SideMenu" : {
+        "Title": "VM Administratorin",
+        "Dashboard": "Armaturenbrett",
+        "OverView": "Überblick",
+        "Users": "Benutzer",
+        "Subscriptions": "Abonnements",
+        "Logs": "Protokolle",
+  
+        "Vending_Machine": "VERKAUFSAUTOMAT",
+        "Advertisement": "Werbung",
+        "Information": "Information",
+        "Products" : "Produkte",
+        "Vending": "VERKAUFSAUTOMAT",
+        "Languages": "Sprache",
+        "Update": "Update",
+  
+        "Statistics": "STATISTIKEN",
+        "Sales": "Verkäufe",
+        "Anaylytics": "Analytik"
+    },
+  
+    "homecommerce": {
+        "Machines": "Registrierte Verkaufsautomaten",
+        "Total": "Gesamt Maschinen:",
+        "Online": "Online Maschinen:",
+        "Offline": "Offline Maschinen:",
+        
+        "Visitors": "Gesamtbesucherzahl in den letzten 7 Tagen",
+        "New_Visitor": "Besucher",
+        "During_Week": "diese Woche",
+  
+        "Registers": "Gesamtzahl der Registrierungen in einem Jahr",
+        "New_Register": "neue Register",
+        "During_Year": "dieses Jahr.",
+  
+        "Selling": "Gesamt verkaufsanalyse in einem Jahr",
+  
+        "Earning": "Gesamt Verdienste",
+        "Total_Income": "Gesamt Einkommen",
+        "Cash_Income": "Cash Einkommen",
+        "QR_Income": "QR Einkommen",
+        "Report": "Zeige Bericht",
+  
+        "Deposit": "Kaution",
+        "Current_Deposit": "Aktueller Gesamtbetrag der von Benutzern eingezahlten Gelder",
+  
+        "Product": "Produkte",
+        "Current_Product": "Aktuelle Produkte zählen aus allen Automaten",
+  
+        "Current_Location": "Aktuelle registrierte Standorte",
+  
+        "Current_AppVersion": "Aktuell laufende App-Version",
+  
+        "Vending_Machine": "Albert von den Verkaufsautomaten",
+        "Col_Machine": "MASCHINE",
+        "Col_Agent": "Kundin",
+        "Col_Status": "STATUS",
+  
+        "Sale_Analytic": "Verkaufsanalyse",
+        "Total_Sale": "Gesamtverkäufe",
+        "Total_Order": "Gesamtbestellungen"
+    },
+
+    "Overview" : {
+      "Agent" : "Kundin:",
+      "ADS": "ADS Manager:",
+      "Machine": "Maschinen:",
+      "Total": "Gesamteinnahmen:",
+  
+      "Machine_Id": "Maschinen ID :",
+      "Cash": "Kasse :"
+    },
+  
+    "Users": {
+        "Col_Name": "VOLLSTÄNDIGER NAME",
+        "Col_Email": "Email",
+        "Col_Balance": "Gleichgewicht",
+        "Col_Role": "Rolle",
+        "Col_Subscribe": "ABONNIERT",
+        "Col_Joined": "VERBINDUNGSDATUM",
+        "Col_Updated": "AKTUALISIERTES DATUM",
+        "Col_Action": "AKTION",
+  
+        "Users": "Benutzer",
+        "Add": "Benutzer hinzufügen",
+        "Edit": "Benutzer bearbeiten",
+        "Save": "Benutzer speichern",
+        "Del": "Benutzer löschen",
+        "Administrator": "Administratoren",
+        "Customer": "Kunden",
+  
+        "Name_Lbl": "Vollständiger Benutzername",
+        "Name": "Vollständiger Name",
+        "Email_Lbl": "Email",
+        "Email": "Email Adresse",
+        "Password_Lbl": "Passwort",
+        "Password": "Benutzerpasswort",
+        
+        "User_Role": "Benutzerrolle",
+        "Admin_Role": "Administratorin",
+        "Agent_Role": "Kundin",
+        "ADS_Role": "ADS Manager",
+  
+        "Subscribed": "Abonniert(*)",
+  
+        "Advertise_Area": "Werbefläche",
+        "Add_Area": "Bereich hinzufügen",
+        "Del_Title": "Benutzer löschen",
+        "Del_Descrip": "Möchten Sie diesen Benutzer wirklich löschen?",
+
+        "Admin_Type": "Administratorin",
+        "Agent_Type": "Kundin",
+        "ADS_Type": "ADS"
+  
+    },
+  
+    "Subscription": {
+        "Col_Subject": "Thema",
+        "Col_Create": "ERSTELLUNGSDATUM",
+        "Col_Updated": "AKTUALISIERTES DATUM",
+        "Col_Delivered": "GESENDET",
+        "Col_Action": "AKTIONN",
+  
+        "Title": "Abonnements",
+        "Subject": "Betreff",
+  
+        "Action": "Aktion",
+        "Add":    "Abonnement hinzufügen",
+        "Delete": "Abonnement löschen",
+        "Edit":   "Abonnement bearbeiten",
+        "NotYet": "Not yet",
+  
+        "Save": "Änderungen speichern"
+    },
+  
+    "Logs" : {
+      "Title": "Protokolle",
+      "All": "Alle Protokolle",
+      "Admin": "Administrator",
+      "Agent": "Kundin",
+      "ADS": "ADS Manager",
+      "Customer": "Kunden",
+      "Machine": "Maschinen",
+      "Search": "Protokolle durchsuchen"
+    },
+  
+    "Advertisement": {
+      "Col_Title": "TITEL",
+      "Col_Type": "TYP",
+      "Col_Poster": "POSTER",
+      "Col_Created": "ERSTELLUNGSDATUM",
+      "Col_Updated": "AKTUALISIERTES DATUM",
+      "Col_Action": "AKTION",
+  
+      "Title": "Anzeige",
+      "Add": "Werbung hinzufügen",
+      "Edot": "Werbung bearbeiten",
+      "UpdateData": "Daten aktualisieren",
+      "Delete": "Werbung löschen",
+      "Save": "Werbung speichern",
+      "Del_Descrip": "Möchten Sie diese Anzeige wirklich löschen?",
+      "Del_Finished": "Werbung gelöscht",
+      "Blocker_Detect": "Werbeblocker erkannt",
+      "Blocker_Desc": "Aktuell haben wir festgestellt, dass Sie einen Werbeblocker in Ihrem Browser installiert haben. Bitte deaktivieren Sie ihn für ein ordnungsgemäßes Benutzererlebnis",
+  
+      "Type_Title": "Titel",
+      "Type_Label":"Typ",
+      "Type_Mp4": "MP4",
+      "Type_PPT": "PPT",
+  
+      "File": "Anzeigendatei",
+      "Download_PPT": "Anzeigendatei"
+    },
+  
+    "Information": {
+      "Title": "Information",
+
+      "Cloud": "Wolke",
+      "Weight": "Gewicht",
+      "Battery": "Batterie",
+      "Hand": "Hand",
+      "Capacity": "Kapazität",
+      "Length": "Länge",
+  
+      "Remove": "Informationen entfernen",
+      "Remove_Descrip": "Entfernen Sie diese Informationen wirklich?"
+    },
+  
+    "Product": {
+      "Title": "Produkte",
+      "Col_Name": "NAME",
+      "Col_Category": "KATEGORIE",
+      "Col_Feature": "FEATURED",
+      "Col_Price": "PRICE",
+      "Col_Currency": "WÄHRUNG",
+      "Col_Created": "ERSTELLUNGSDATUM",
+      "Col_Updated": "AKTUALISIERTES DATUM",
+      "Col_Action": "AKTION",
+  
+      "Name_Lbl": "Name(*)",
+      "Name": "Produktname",
+      "German_Name_Lbl": "Deutsch Name(*)",
+      "German_Name": "Deutscher Name(German)",
+      "Price_Lbl": "Produktname(*)",
+      "Price": "Produktname",
+      "Currency_Lbl": "Währung(*)",
+      "Currency": "Währung",
+      "Description_Lbl": "Beschreibung(*)",
+      "Description": "Beschreibung",
+      "German_Description_Lbl": "Deutsche Beschreibung(*)",
+      "German_Description": "Beschreibung (Deutsch)",
+  
+      "Category_Lbl":"Kategorie(*)",
+      "Category_EC":"E-Zigarette",
+      "Category_Snack":"Snack",
+      "Category_Drink":"Trinken",
+  
+      "Theme_Lbl": "Thema(*)",
+      "Theme_Green": "Grün",
+      "Theme_Blue": "Blau",
+      "Theme_Pink": "Rosa",
+      "Theme_Black": "Schwarz",
+  
+      "Feature_Lbl": "Hervorgehoben(*)",
+  
+      "Addition_Info": "Zusätzliche Informationen",
+      "German_Addition_Info": "Deutsche Zusatzinformationen",
+  
+      "Image_Lbl": "Produktinformationsbilder",
+      "Main_Image": "Hauptbild(*)",
+      "Additional_Image": "Zusätzlich Bild",
+      "Preview": "Vorschau",
+      "Additional": "Zusätzlich",
+  
+      
+      "Add": "Produkt hinzufügen",
+      "Edit": "Produkt bearbeiten",
+      "Save": "Produkt speichern",
+      "Delete": "Produkt löschen",
+      "Delete_Descrip": "Möchten Sie dieses Produkt wirklich löschen?",
+
+      "ADD_EXTRA_PRODUCT_IMAGES": "Fügen Sie zusätzliche Bilder hinzu",
+      "ERRMSG_SET_PRIMARY_IMAGE_FIRST": "Bitte legen Sie zuerst das primäre Bild fest"
+    },
+  
+    "Machine": {
+      "Title": "Verkaufsautomaten",
+  
+      "Col_Serial": "SERIENNUMMER",
+      "Col_Agent": "Kundin",
+      "Col_Cash": "BARBETRAG",
+      "Col_Status": "STATUS",
+      "Col_Created":"ERSTELLUNGSDATUM",
+      "Col_Expiration":"ABLAUFDATUM",
+      "Col_Action":"AKTION",
+  
+      "Add": "Verkaufsautomat hinzufügen",
+      "Edit": "Verkaufsautomaten bearbeiten",
+      "Delete": "Automaten löschen",
+      "Update": "Maschine aktualisieren",
+      "Delete_Descrip": "Möchten Sie diese Maschine wirklich löschen?",
+  
+      "Step": "Schritt",
+      "SerialNumber": "Seriennummer",
+      "Advertisement": "Werbung",
+      "Information": "Information",
+      "Vending_ADS": "Verkauf ADS",
+      "Products": "Produkte",
+      "Cash": "Bargeld",
+      "Location": "Standort",
+      "Advertisement_German": "Werbung für Deutschland Vending (in der App verwendet)",
+  
+      "BoxNumber": "Boxnummer",
+      "Stock": "Lager",
+  
+      "Type_Cloud" : "Wolke",
+      "Type_Liquid" : "Flüssigkeit",
+      "Type_Ruler" : "Lineal",
+      "Type_Hand" : "Hand",
+      "Type_Balancer" : "Balancer",
+      "Type_Battery" : "Batterie",
+
+      "Exceed_Limit_Image" : "Überschreiten Sie die maximale Anzahl an Bildern",
+
+      "Online": "online",
+      "Offline": "offline",
+      "Locked": "gesperrt",
+      "UnLocked": "entsperrt"
+    },
+  
+    "Language" : {
+      "Title" : "Sprache",
+  
+      "Col_Language": "Sprache",
+      "Col_Created": "Erstellungsdatum",
+      "Col_Updated": "AKTUALISIERTES DATUM",
+      "Col_Action":"AKTION",
+  
+      "Add": "Sprache hinzufügen",
+      "Remove": "Sprache entfernen",
+      "Remove_Descrip": "Möchten Sie diese Sprache wirklich entfernen?",
+      "Save": "Sprache speichern",
+      "Edit":"Sprache bearbeiten",
+      "Update": "Sprache aktualisieren",
+  
+      "App": "Verkaufs-App",
+      "Admin_Site": "Admin-Site",
+      "Custom_Site": "Kundenseite",
+  
+      "Name_Field": "Sprachname",
+      "Where_Use": "Wo diese Sprache verwendet werden soll",
+      "Machine_App": "Automaten-App",
+      "Current_File": "Aktuelle Datei",
+      "Icon": "Sprachsymboldatei"
+    },
+  
+    "Sale" : {
+      "Title" : "Sales",
+      "Col_ORDER": "SORTIEREN NACH",
+      "Col_Vending": "VERKAUFSMASCHINE",
+      "Col_Product": "PRODUKT",
+      "Col_Amount": "MENGE",
+      "Col_Payment": "ZAHLUNG",
+      "Col_Date": "DATUM",
+      "Col_Status": "STATUS",
+      "Col_Action": "AKTION",
+  
+      "Detail_Title": "Bestelldetails",
+      "Detail_Order": "Best.-Nr:",
+      "Detail_Machine": "Verkaufsautomat:",
+      "Detail_Payment": "Zahlung:",
+      "Detail_Status": "Status:",
+      "Detail_Date": "Datum:",
+      "Detail_Types": "Typen",
+      "Types_Title": "Typen",
+      "Types_Price": "Preis",
+      "Types_Count": "Zählen",
+      "Types_Total": "Zwischensummel",
+  
+      "List": "Verkaufsliste",
+      "Order": "Befehl",
+
+      "Success": "Erfolg",
+      "Pending": "Ausstehend",
+
+      "QR": "QR",
+      "Cash": "KASSE"
+    },
+  
+    "Date": {
+      "Mon":"Mon",
+      "Thu":"Thu",
+      "Wed":"Wed",
+      "Tue":"Tue",
+      "Fri":"Fri",
+      "Sta":"Sta",
+      "Sun":"Sun",
+  
+      "Year":"Jahr",
+      "Month":"Monat",
+      "week": "Woche",
+      "Sel_Year": "Jahr auswählen"
+    },
+  
+    "Analytics": {
+      "Title": "Analytics",
+  
+      "Total": "Gesamtverkäufe",
+      "Type": "Verkauf nach Produkten",
+      "Machines": "Verkäufe nach Maschinen",
+      "Month": "Monat",
+      "Order": "Bestellungen",
+      "Stock": "Lager",
+      "Amount": "Betrag",
+      "Product": "Produkt",
+      "Count": "Verkauf zählt",
+      "Vending": "Verkaufsautomat"
+  
+    },
+  
+    "History" : {
+      "Title": "Git-Commit-Verlauf der Verkaufsautomatenanwendung",
+      "Revert": "Verlauf wiederherstellen",
+      "Revert_Descrip": "Setzt den Update-Verlauf aus dem Git-Repository zurück",
+  
+      "Col_Version": "Version",
+      "Col_SHA": "SHA",
+      "Col_Comment": "Kommentar",
+      "Col_Branchname": "Branchname",
+      "Col_Updated": "Aktualisierungsdatum",
+      "Col_Action": "Aktion",
+      "Col_Revert": "Zurücksetzen",
+  
+      "Update": "Updates"
+    },
+  
+    "Update": {
+      "Title" : "Updates",
+      "Machine_Update": "Update für Verkaufsautomaten hinzufügen",
+      "Edit": "Updates bearbeiten",
+      "Save_Update": "Update speichern",
+      "Name": "Vollständiger Name",
+      "Link": "Git-Commit-Link",
+      "Enable": "Aktivieren",
+      "Disable": "Deaktivieren",
+      "Save": "Änderungen speichern",
+      "Add": "Update hinzufügen",
+      "Comment": "Commnet",
+      "Git_Link": "Git-Commit-Link",
+      "Status": "Status"
+    },
+  
+    "Options": {
+        "Title": "Option",
+        "Low_T_High": "Niedrig nach hoch",
+        "High_T_Low": "Hoch nach niedrig",
+        "Days": "Tage",
+  
+        "Frist": "Zuerst",
+        "Prev": "Vorherige",
+        "Next": "Weiter",
+        "Last": "Letzte",
+        "Select": "Auswählen",
+  
+        "To": "an",
+  
+        "Yes": "ja",
+        "No": "Nein",
+        "Cancel": "Stornieren",
+        "Close": "Close",
+  
+        "Add": "Hinzufügen",
+        "Save": "Speichern",
+  
+        "Go_Back": "Zurück",
+  
+        "Home": "zu Hause",
+        "Action": "Aktion",
+        "All": "alles",
+        "Total": "Gesamt",
+        "Not_Available": "Nicht verfügbar",
+
+        "Activate": "aktivieren Sie"
+    },
+  
+    "Table": {
+        "PerPage": "Pro Seite",
+        "Search": "Suche",
+        "No_Data": "Es wurden keine Datensätze gefunden.",
+        "Showing": "Zeigt",
+        "To": "an",
+        "Of": "von",
+        "Entries": "Einträge",
+        "Total_Received": "Insgesamt erhalten",
+        "Bar_Data": "Balkendaten"
+    },
+  
+    "Messages": {
+        "Check_All_MSG": "Bitte überprüfen Sie alle Felder",
+        "Fail_Get_Overview" : "Es konnten keine Übersichtsinformationen abgerufen werden",
+
+        "Fail_Get_User_MSG": "Benutzerdetails konnten nicht abgerufen werden",
+        "Fail_Add_User_MSG": "Neuer Benutzer konnte nicht hinzugefügt werden",
+        "Fail_Update_User_MSG": "Benutzer konnte nicht aktualisiert werden",
+        "Fail_Del_User_MSG": "Benutzer konnte nicht gelöscht werden",
+  
+        "Fail_List_User_MSG": "Benutzer konnten nicht aufgelistet werden",
+  
+        "Fail_List_Subscript_MSG": "Liste der Abonnements konnte nicht abgerufen werden",
+        "Send_Bulk_MSG": "Es werden Massen-Abonnement-E-Mails an Benutzer gesendet, bitte warten…",
+        "Fail_Send_MSG": "Abonnement-Mails konnten nicht gesendet werden",
+        "Delete_MSG": "Wollen Sie wirklich löschen?",
+  
+        "Fail_Get_Sub_MSG": "Abonnementdetails konnten nicht abgerufen werden",
+        "Fail_New_Sub_MSG": "Neues Abonnement konnte nicht hinzugefügt werden",
+        "Fail_Update_Sub_MSG": "Abonnement konnte nicht aktualisiert werden",
+        "Fail_Del_Sub_MSG": "Abonnement konnte nicht gelöscht werden",
+  
+        "Fail_Get_Detail_Adver_MSG": "Werbedetails konnten nicht abgerufen werden",
+        "Fail_Get_Adver_MSG": "Liste der Werbungen konnte nicht abgerufen werden",
+        "Fail_Update_Adver_MSG": "Aktualisierung der Werbung fehlgeschlagen",
+        "Fail_Del_Adver_MSG": "Werbung konnte nicht gelöscht werden",
+        "Disable_Blocker_Extension_MSG": "Bitte deaktivieren Sie zuerst die Werbeblocker-Erweiterung",
+        "Fail_Add_Adver_MSG": "Neue Werbung konnte nicht hinzugefügt werden",
+        "Success_Add_Adver_MSG": "Neue Werbung wurde hinzugefügt!",
+        "Success_Update_Adver_MSG": "Werbung aktualisiert",
+  
+        "Fail_list_Info_MSG": "Liste mit Informationen konnte nicht abgerufen werden",
+        "Fail_Del_Info_MSG": "Informationen konnten nicht gelöscht werden",
+        "Success_Del_Info_MSG": "Informationen gelöscht",
+  
+        "Fail_List_Machine_MSG": "Liste der Maschinen konnte nicht abgerufen werden",
+        "Fail_Update_Machine_MSG": "Fehler beim Aktualisieren der Maschine",
+        "Fail_Del_Machine_MSG": "Löschen der Maschine fehlgeschlagen",
+        "Block_Detect_MSG": "Werbeblocker erkannt",
+        "Block_Notice_MSG": "Aktuell haben wir festgestellt, dass Sie einen Werbeblocker in Ihrem Browser installiert haben. Bitte deaktivieren Sie ihn für ein ordnungsgemäßes Benutzererlebnis",
+        "Disable_Block_MSG": "Bitte deaktivieren Sie zuerst die Werbeblocker-Erweiterung",
+  
+        "Already_Selected_MSG": "Nummer bereits ausgewählt, bitte wählen Sie eine andere",
+        "Enter_License_MSG": "Bitte geben Sie den Lizenzcode ein",
+        "Fail_list_Product_MSG": "Liste der Produkte konnte nicht abgerufen werden",
+        "Fail_Machine_Detail_MSG": "Maschinendetails konnten nicht abgerufen werden",
+  
+        "License_Invalid_MSG": "Der Lizenzcode sollte 20 Zeichen lang sein",
+        "Type_Serial_Number_MSG": "Bitte Seriennummer eingeben",
+        "Select_Machine_MSG": "Bitte Seriennummer eingeben",
+        "Select_Info_MSG": "Bitte Informationen auswählen",
+        "Input_Info_MSG": "Bitte geben Sie Werte für jede Information ein",
+        "Select_Prodcuct_MSG": "Bitte Produkte auswählen",
+        "Set_Neccessary_Info_MSG": "Bitte stellen Sie alle erforderlichen Werte für jedes Produkt ein",
+        "Create_Config_MSG": "Bitte erstellen Sie eine Bargeldkonfiguration für den Automaten",
+        "Commnect_Cash_MSG": "Bitte geben Sie Kommentare pro Bargeld ein",
+  
+        "Machine_Active_MSG": "Maschine ist aktiviert!",
+        "License_Code_MSG": "Lizenzcode ist ungültig",
+        "License_Active_MSG": "Geben Sie den Lizenzcode ein, um die Maschine zu aktivieren",
+        "Fail_List_Language_MSG": "Liste der Sprachen konnte nicht abgerufen werden",
+  
+        "Success_New_Language_MSG": "Neue Sprache hinzugefügt",
+        "Fail_New_Language_MSG": "Neue Sprache konnte nicht hinzugefügt werden",
+        "Fail_Get_Language_MSG": "Sprachdetails konnten nicht abgerufen werden",
+  
+        "Fail_List_Sales_MSG": "Verkaufsliste konnte nicht abgerufen werden",
+        "Fail_Analytics_MSG": "Analyseinformationen konnten nicht abgerufen werden",
+        "Fail_Get_History_MSG":"Commit-Verlauf konnte nicht abgerufen werden",
+        "Fail_Update_History_MSG": "Aktualisierungsdetails konnten nicht abgerufen werden",
+        "Success_Update_MSG": "Erfolgreich aktualisiert",
+        "Failed_update_MSG": "Aktualisierung fehlgeschlagen",
+        "Success_Add_Update_MSG": "Neues Update hinzugefügt",
+        "Fail_New_Update_MSG": "Neues Update konnte nicht hinzugefügt werden",
+
+        "Fail_Detail_Product_MSG": "Produktdetails konnten nicht abgerufen werden"
+    }
+  }

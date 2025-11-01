@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"vmdb.sales"}],"uuid":"d2ee84abeb484b9c84ca967bafeaceca"}

@@ -1,0 +1,14 @@
+{
+  "dbUri": "mongodb://127.0.0.1:27017/vmdb",
+  "jwtSecret": "change-me",
+  "qrSecret": "change-me",
+  "email": {
+    "username": "your-email@example.com",
+    "password": "change-me"
+  },
+  "customerURL": "https://your-customer-app.example.com/",
+  "gituser": "your-github-username",
+  "gittoken": "your-github-token",
+  "googleclientid": "your-google-client-id"
+}
+

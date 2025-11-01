@@ -1,0 +1,46 @@
+const locale = {
+  Title: "Deposite",
+  CurBalance: "Current Balance",
+  PreDeposit: "Previous Deposits",
+  Amount: "Amount",
+  Date: "Date",
+  DepositNow: "Deposit Now",
+  DEPOSIT_BY_PAYPAL: "Deposit by PayPal",
+  DEPOSIT_BY_PAYPAL_NOTE: "Please note that PayPal's fee will be appiled to deposit amount",
+  Name:"Name",
+  CardNum: "Card Number",
+  CVC: "CVC",
+  Deposit: "Deposit",
+  Expiration: "Expiration Date",
+  Cardholder: "Name of the card holder",
+  Done: "Done",
+
+  Mobile_Title : "Deposit to your account",
+  Mobile_Balance: "Your Balance",
+  Mobile_Deposit: "Deposit: ",
+  Mobile_Amount: "Choose your amount",
+  Mobile_Pay_Type: "Choose Payment method",
+  Mobile_Pay: "Credit or Debit Card",
+  Mobile_Custom: "Custom Amount",
+  Mobile_Sufix: "to your account",
+
+  Expire_MSG: "Session expired, please re-log in and try again",
+  Zero_MSG: "Deposit amount should be more than zero",
+  Success: "Deposited successfully",
+  Fail_Deposit_MSG: "Failed to deposit money, please contact support team",
+  Fail_History_MSG: "Failed to get deposit history",
+
+  Fill_Name_MSG: "Please fill out card name",
+  Fill_Amount_MSG: "Please fill out deposit amount above 0",
+  Fill_Card_MSG: "Please fill out card number",
+  Card_Invalid_MSG: "Card Number format is invalid",
+  Fill_CVC_MSG: "Please fill out CVC number of your card",
+  Comeing_MSG: "Coming soon",
+
+  First_Amount_MSG: "Please set deposit amount first",
+  Valid_Amount_MSG: "Please set valid deposit amount above zero",
+  Expirate_Date_MSG: "Please fill out expiration date",
+  Card_Expiration_MSG: "Card Expiration Date format is invalid",
+};
+
+export default locale;
